@@ -1,22 +1,37 @@
-```html
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
 
-    <!-- Favicon -->
+    <!-- =========================================
+         FAVICON
+    ========================================== -->
     <link rel="icon" type="image/png" href="/logo.png" />
     <link rel="apple-touch-icon" href="/logo.png" />
 
-    <!-- Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- =========================================
+         VIEWPORT
+    ========================================== -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
 
-    <!-- Primary SEO -->
-    <title>GrayC Uniforms | Uniform Manufacturers in Tamil Nadu</title>
+    <!-- =========================================
+         PRIMARY SEO
+    ========================================== -->
+    <title>
+      Uniform Manufacturers in Tamil Nadu | School, Hospital & Industrial Uniforms
+    </title>
 
     <meta
       name="description"
-      content="GrayC Uniforms is a uniform manufacturer and supplier in Tamil Nadu offering premium school, hospital, college, hotel and industrial uniforms, custom designs and bulk orders across India."
+      content="GrayC Uniforms — leading uniform manufacturers in Tamil Nadu. Premium school, hospital, college, hotel and industrial uniforms. Bulk orders, custom designs and pan-India delivery."
+    />
+
+    <meta
+      name="keywords"
+      content="uniform manufacturers tamil nadu, school uniform suppliers, hospital uniform manufacturers, industrial uniform suppliers india, college uniform manufacturers, hotel uniform suppliers, custom uniform bulk orders, grayc uniforms"
     />
 
     <meta
@@ -35,8 +50,13 @@
       href="https://graycuniforms.com/"
     />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
+    <!-- =========================================
+         OPEN GRAPH / FACEBOOK / WHATSAPP
+    ========================================== -->
+    <meta
+      property="og:type"
+      content="website"
+    />
 
     <meta
       property="og:site_name"
@@ -45,12 +65,12 @@
 
     <meta
       property="og:title"
-      content="GrayC Uniforms | Uniform Manufacturers in Tamil Nadu"
+      content="GrayC Uniforms — Premium Uniform Manufacturers in Tamil Nadu"
     />
 
     <meta
       property="og:description"
-      content="Premium school, hospital, college, hotel and industrial uniforms from GrayC Uniforms. Custom designs, bulk orders and pan-India delivery."
+      content="Leading uniform manufacturers in Tamil Nadu. School, hospital, hotel, college and industrial uniforms. Bulk orders and custom designs."
     />
 
     <meta
@@ -83,7 +103,9 @@
       content="en_IN"
     />
 
-    <!-- Twitter / X -->
+    <!-- =========================================
+         TWITTER / X CARD
+    ========================================== -->
     <meta
       name="twitter:card"
       content="summary_large_image"
@@ -91,12 +113,12 @@
 
     <meta
       name="twitter:title"
-      content="GrayC Uniforms | Uniform Manufacturers in Tamil Nadu"
+      content="GrayC Uniforms — Premium Uniform Manufacturers in Tamil Nadu"
     />
 
     <meta
       name="twitter:description"
-      content="Premium school, hospital, college, hotel and industrial uniforms. Custom designs, bulk orders and pan-India delivery."
+      content="Premium school, hospital, college, hotel and industrial uniforms from GrayC Uniforms. Custom designs and bulk orders."
     />
 
     <meta
@@ -104,7 +126,9 @@
       content="https://graycuniforms.com/logo.png"
     />
 
-    <!-- Local SEO -->
+    <!-- =========================================
+         LOCAL SEO
+    ========================================== -->
     <meta
       name="geo.region"
       content="IN-TN"
@@ -115,82 +139,108 @@
       content="Tamil Nadu, India"
     />
 
-    <!-- Google Search Console Verification -->
+    <!-- =========================================
+         GOOGLE SEARCH CONSOLE VERIFICATION
+    ========================================== -->
     <meta
       name="google-site-verification"
       content="A_up5DjExXpeBFxbHBCGc6DA_2WdJ0Jj9Bd_TV6Xrko"
     />
 
-    <!-- ========================================================= -->
-    <!-- ORGANIZATION SCHEMA                                        -->
-    <!-- ========================================================= -->
-
+    <!-- =========================================
+         SCHEMA 1: ORGANIZATION
+    ========================================== -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "GrayC Uniforms",
-        "url": "https://graycuniforms.com/",
-        "logo": "https://graycuniforms.com/logo.png",
-        "description": "GrayC Uniforms is a uniform manufacturer and supplier in Tamil Nadu offering school, hospital, college, hotel and industrial uniforms, custom designs and bulk orders.",
-        "areaServed": {
-          "@type": "Country",
-          "name": "India"
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://graycuniforms.com/#organization",
+      "name": "GrayC Uniforms",
+      "url": "https://graycuniforms.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://graycuniforms.com/logo.png"
+      },
+      "description": "GrayC Uniforms is a uniform manufacturer and supplier providing school, hospital, college, hotel and industrial uniforms.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    }
+    </script>
+
+    <!-- =========================================
+         SCHEMA 2: LOCAL BUSINESS
+         IMPORTANT:
+         Product items removed from here.
+         This fixes the Product snippet errors.
+    ========================================== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://graycuniforms.com/#business",
+      "name": "GrayC Uniforms",
+      "url": "https://graycuniforms.com/",
+      "image": "https://graycuniforms.com/logo.png",
+      "logo": "https://graycuniforms.com/logo.png",
+      "description": "Premium uniform manufacturers and suppliers in Tamil Nadu providing school, hospital, college, hotel and industrial uniforms.",
+      "priceRange": "₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Tamil Nadu",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    }
+    </script>
+
+    <!-- =========================================
+         SCHEMA 3: BREADCRUMBS
+    ========================================== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "@id": "https://graycuniforms.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://graycuniforms.com/"
         }
-      }
+      ]
+    }
     </script>
 
-    <!-- ========================================================= -->
-    <!-- LOCAL BUSINESS / CLOTHING STORE SCHEMA                    -->
-    <!-- ========================================================= -->
-
+    <!-- =========================================
+         SCHEMA 4: WEBSITE
+    ========================================== -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ClothingStore",
-        "name": "GrayC Uniforms",
-        "image": "https://graycuniforms.com/logo.png",
-        "url": "https://graycuniforms.com/",
-        "description": "Uniform manufacturer and supplier offering school, hospital, college, hotel and industrial uniforms, custom designs and bulk orders across India.",
-        "address": {
-          "@type": "PostalAddress",
-          "addressRegion": "Tamil Nadu",
-          "addressCountry": "IN"
-        },
-        "areaServed": {
-          "@type": "Country",
-          "name": "India"
-        }
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://graycuniforms.com/#website",
+      "url": "https://graycuniforms.com/",
+      "name": "GrayC Uniforms",
+      "description": "Premium uniform manufacturers in Tamil Nadu.",
+      "publisher": {
+        "@id": "https://graycuniforms.com/#organization"
       }
+    }
     </script>
 
-    <!-- ========================================================= -->
-    <!-- BREADCRUMB SCHEMA                                          -->
-    <!-- ========================================================= -->
-
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://graycuniforms.com/"
-          }
-        ]
-      }
-    </script>
-
-    <!-- ========================================================= -->
-    <!-- GOOGLE ANALYTICS                                           -->
-    <!-- ========================================================= -->
-
+    <!-- =========================================
+         GOOGLE ANALYTICS
+    ========================================== -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-3HCCLBXLF8"
-    ></script>
+      src="https://www.googletagmanager.com/gtag/js?id=G-3HCCLBXLF8">
+    </script>
 
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -208,10 +258,10 @@
   <body>
     <div id="root"></div>
 
+    <!-- React / Vite -->
     <script
       type="module"
-      src="/src/main.jsx"
-    ></script>
+      src="/src/main.jsx">
+    </script>
   </body>
 </html>
-```
